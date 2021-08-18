@@ -5,22 +5,31 @@ Site responsivo e com uma bela interface do usuário com meus trabalhos de desen
 ## Projeto Online
 
 
-## Tecnologias
+## Tecnologias 🥅
 
-HTML
-CSS
-JavaScript(Vanilla JS)
+✔️ HTML
+✔️ CSS
+✔️ JavaScript(Vanilla JS)
 
-## Licenca:
+## Licenca 🏌️‍♀️
 
-MIT
+☑️ MIT
 
 ### Status:
 
-Concluído
+🖐️ Concluído
 
 
-### Obrigada pela visita
+### Obrigada pela visita 🤙
 
 
+### ScreenShots 
 
+#### Mobile 📱
+
+![mobileportfolio](https://raw.githubusercontent.com/alessandradocouto/portfolio-responsivo/master/mobile.jpg)
+
+
+#### Desktop 🖥️
+
+![mobileportfolio](https://raw.githubusercontent.com/alessandradocouto/portfolio-responsivo/master/desktop.jpg)
