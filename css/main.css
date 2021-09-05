@@ -273,15 +273,17 @@ ul li{
 
 .logo{
     display: inline-block;
-    color: #fff;
-    font-size: 1.25em;
     margin: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #1CE783;
     text-transform: lowercase;
     letter-spacing: 1px;
 }
 
 .logo:hover{
-    color: rgba(255, 255, 255, 0.450);
+    color: #fff;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -895,12 +897,34 @@ input[type="text"], input[type="email"], textarea{
         -o-transition: all 0.6s;
         transition: all 0.6s;
     }
+    
 
     /* logo */
+    
+    
+    .h-container-logo{
+        position: relative;
+    }
+
+    .logo-position{ 
+        position: absolute;
+        top: -50px;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 85px;
+        height: 150px;
+        background-color: #1CE783;
+        text-align: center;
+    }
 
     .logo{
-        font-size: 1.25em;
+        font-size: 1.5em;
+        margin: 1em auto;
+        color: rgb(53, 53, 53);
     }
+    
+    
 
     /*  header */
 
@@ -911,9 +935,42 @@ input[type="text"], input[type="email"], textarea{
     .h-text{
         font-size: 1.25em;
     }
+    
+    .title-animation{
+        animation: bordaPiscando 0.5s steps(50) infinite normal, digita 6s steps(50) 1s normal;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    @keyframes digita {
+        from{
+            width: 0;
+        }
+        to{
+            width: 8em;
+        }
+    }
+
+    @keyframes bordaPiscando {
+
+        from{
+            border-right-color: rgba(255, 255, 255, 0.550);
+        }
+
+        to{
+            border-right-color: transparent;
+        }
+
+    }
+
+    .h-title{
+        border-right: 2px solid #fff;
+    }
+    
 
     /* sobre */
 
+    
     .s-container-skills{
         padding: 1em 0.3em;
     }
