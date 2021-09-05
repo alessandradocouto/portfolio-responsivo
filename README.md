@@ -27,4 +27,4 @@ https://alessandradocouto.github.io/portfolio-responsivo/
 
 ### Preview Mobile 📱  Desktop 🖥️
 
-![](https://user-images.githubusercontent.com/51713464/132076802-2d095fb1-26a1-49f4-9752-a5d07a53d774.gif)
+(https://user-images.githubusercontent.com/51713464/132143388-86b4ef11-1ef9-4b75-ad3e-4fb41db0ab4d.mp4)
