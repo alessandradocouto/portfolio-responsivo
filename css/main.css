@@ -226,7 +226,7 @@ ul li{
 
 .h-container{ /* BACKGROUND IMAGE  */
     background-color: linear-gradient(#08060F, #313265, #315D67); /* fallback */
-    background-image: url(images/background-image.png); /* W3C */
+    background-image: url(../images/background-image.png); /* W3C */
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
